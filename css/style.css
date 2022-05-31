@@ -5,9 +5,10 @@
 ============================================*/
 
 @import url("https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700");
+
 * {
-  box-sizing: border-box;
   margin: 0;
+  box-sizing: border-box;
 }
 body {
   font-family: "Montserrat", sans-serif;
@@ -25,13 +26,12 @@ body {
   font-size: 36px;
   font-weight: 200;
   color: rgba(0, 0, 0, 0.7);
-  margin: 0px 0px 0px 0px;
 }
 .header h3 {
   font-size: 16px;
   font-weight: 400;
   color: rgba(0, 0, 0, 0.2);
-  margin: 16px 0px 0px 0px;
+  margin-top: 16px;
 }
 footer {
   clear: both;
@@ -46,11 +46,7 @@ footer h4 {
   padding: 12px;
 }
 article {
-  color: white;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
+  color: #fff;
   display: flex;
   float: left;
   width: 33%;
@@ -88,9 +84,5 @@ h2 {
   }
   .section {
     padding: 8px;
-  }
-  .container:hover {
-    transform: scale(1);
-    box-shadow: 0 10px 20px rgba(169, 201, 255, 0.4);
   }
 }
